@@ -1,0 +1,12 @@
+.Inicio, .Inicio a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+.Inicio img {
+    width: 35%;
+
+}
