@@ -38,6 +38,8 @@
     font-weight: 400;
     grid-row: 2/3;
     grid-template-columns: 2/3;
+    display: flex;
+    gap: 1rem;
 }
 
 .carrito{
@@ -50,6 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .numeroCarrito{
@@ -64,5 +67,11 @@
     justify-content: center;
     left: 30px;
     bottom: 40px;
+   
+}
+
+.flecha{
+    grid-row: 2/3;
+   grid-column: 2/3;   
    
 }

@@ -1,0 +1,68 @@
+.Restaurantes {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  
+  .restaurante1,
+  .restaurante2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 25%;
+    background-color: #fdfdfd;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+  }
+  
+  .imgRestuarante1,
+  .imgRestuarante2 {
+    width: 100%;
+    height: 8.5rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+  }
+  
+ 
+  .nombreRestaurante {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+
+  .productosRestaurantes {
+    font-size: 0.9rem;
+    color: #A0A5BA;
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  .Datos {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    align-items: center;
+  }
+  
+  
+  .dato1,
+  .dato2,
+  .dato3 {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .dato1 {
+    font-weight: 700;
+  }
+  
